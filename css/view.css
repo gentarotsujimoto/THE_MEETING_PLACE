@@ -1,0 +1,95 @@
+body{
+    background: rgb(50, 50, 50);
+}
+
+.title{
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+}
+div.explanation{
+    text-align: center;
+    top: 100px;
+
+}
+
+img.explanation_img{
+    height: 200px;
+    width: 300px;
+}
+
+.sign_up{
+    border-radius: 5px;
+    border: 5px solid;
+    border-color: rgb(118, 5, 240);
+    background-color: rgb(25, 25, 25);
+    padding: 20px;
+    text-align: center;
+    color: white;
+    height: 70px;
+    width: 150px;
+    position: absolute;
+    left: 420px;
+    top: 400px;
+}
+
+.login{
+    border-radius: 5px;
+    border: 5px solid;
+    border-color: rgb(250, 5, 5);
+    background-color: rgb(25, 25, 25);
+    padding: 20px;
+    text-align: center;
+    color: white;
+    height: 70px;
+    width: 150px;
+    position: absolute;
+    left: 700px;
+    top: 400px;
+}
+  
+.sign_up_input{
+    border-radius: 5px;
+    border: 5px solid;
+    border-color: rgb(118, 5, 240);
+    background-color: rgb(25, 25, 25);
+    color: white;
+    height: 390px;
+    width: 700px;
+    position: fixed;
+    left: 300px;
+    top: 130px;
+}
+
+.login_input{
+    border-radius: 5px;
+    border: 5px solid;
+    border-color: rgb(255, 5, 5);
+    background-color: rgb(25, 25, 25);
+    color: white;
+    height: 390px;
+    width: 700px;
+    position: fixed;
+    left: 300px;
+    top: 130px;
+}
+
+.input_text_1{
+    color:rgb(120, 120, 120); 
+}
+
+input:focus{
+    outline:0;
+
+}
+
+p2.input_error{
+    color: rgb(250, 5, 5);
+}
+.input_text_2{
+    border:solid 0px;
+    border-color: rgb(25, 25, 25);
+    background-color: rgb(25, 25, 25);
+    color: rgb(120, 120, 120);
+}
+
+
