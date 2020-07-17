@@ -73,23 +73,54 @@ img.explanation_img{
     top: 130px;
 }
 
-.input_text_1{
-    color:rgb(120, 120, 120); 
+.input_text{
+    color:rgb(100, 40, 215); 
 }
 
 input:focus{
     outline:0;
-
 }
 
-p2.input_error{
-    color: rgb(250, 5, 5);
-}
-.input_text_2{
+.input_text_Band_Name{
     border:solid 0px;
     border-color: rgb(25, 25, 25);
     background-color: rgb(25, 25, 25);
     color: rgb(120, 120, 120);
 }
 
+.input_error_Band_Name{
+    display: none;
+    color: rgb(250, 5, 5);
+}
 
+.input_text_Password_class{
+    display: none;
+}
+
+.input_text_Password{
+    border:solid 0px;
+    border-color: rgb(25, 25, 25);
+    background-color: rgb(25, 25, 25);
+    color: rgb(120, 120, 120);
+}
+
+.input_error_Password{
+    display: none;
+    color: rgb(250, 5, 5);
+}
+
+.input_text_Password_again_class{
+    display: none;
+}
+
+.input_text_password_again{
+    border:solid 0px;
+    border-color: rgb(25, 25, 25);
+    background-color: rgb(25, 25, 25);
+    color: rgb(120, 120, 120);
+}
+
+.input_error_password_again{
+    display: none;
+    color: rgb(250, 5, 5);
+}
